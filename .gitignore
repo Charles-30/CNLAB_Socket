@@ -1,0 +1,24 @@
+# --- 忽略日志文件 ---
+# 忽略整个 log 文件夹
+log/
+
+# 忽略 Glog 产生的软链接和临时文件
+*.INFO
+*.WARNING
+*.ERROR
+*.FATAL
+*.log
+
+# --- 忽略编译生成的可执行文件 ---
+# Linux/WSL 下的可执行文件（没有后缀）
+client
+server_1
+server_3
+
+# --- 忽略中间文件 ---
+*.o
+*.out
+
+# --- 忽略 IDE/编辑器的配置文件夹 ---
+.vscode/
+.idea/
