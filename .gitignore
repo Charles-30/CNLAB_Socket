@@ -13,6 +13,7 @@ log/
 # Linux/WSL 下的可执行文件（没有后缀）
 client
 server
+client_test1
 
 # --- 忽略中间文件 ---
 *.o
