@@ -12,8 +12,7 @@ log/
 # --- 忽略编译生成的可执行文件 ---
 # Linux/WSL 下的可执行文件（没有后缀）
 client
-server_1
-server_3
+server
 
 # --- 忽略中间文件 ---
 *.o
