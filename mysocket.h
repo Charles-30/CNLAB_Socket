@@ -59,13 +59,7 @@ public:
     }
 
     // --- Destructor ---
-    // 析构时自动完成下线告知、关闭 socket
-    ~mySocket() {
-        if (_isValid && _sockfd >= 0) {
-            send(Packet(MSG_EXIT, "")); 
-            std::cout << "Socket " << _sockfd << " closed automatically." << std::endl;
-        }
-    }
+    ~mySocket() {}
 
     // --- Getters ---
     int getFd() const { return _sockfd; }
